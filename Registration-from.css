@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	background-color: lightblue;
+	}
+
+.Contanier{
+	max-width: 500px;
+	width: 100%;
+	height: 96vh;
+/*	margin: 50px auto;*/
+	background-image: url("https://images.unsplash.com/photo-1619678953821-428aa1408222?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGhlJTIwc3VufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+	padding: 35px 40px;
+	border-radius: 8px;
+	margin-left: 200px;
+}
+
+h1{
+	text-align: center;
+}
+
+form{
+	width: 90vw;
+	margin: 0auto;
+}
+
+label{
+	display: block;
+	/*the margin and the display:block; gives space between 
+	the lable and input*/
+	margin: 0.5rem 0;
+	
+}
+
+div{
+	margin: 1rem 0;
+}
+
+.details {
+	width: 100%;
+    height: 40px;
+    min-height: 2em;
+
+/*    background-color: darkgreen;*/
+border: 1px solid gray;
+border-radius: 7px;
+}
+
+/*.radio-button {
+	display: flex;
+   border-radius: 50%;
+}
+
+.radio-button >label{
+	display: flex;
+	padding: 0px 3em 0px 0;
+/*	border-radius: 50%;*/
+	justify-content: space-between;
+}
+*/
+.radio {
+	width: unset;
+	margin: 0 5px 0 0;
+	border-radius: 50%;
+	height: 16px;
+	width: 16px;
+
+
+}
+
+
+.button-container{
+	margin-left: 150px;
+
+}
+
+.button-container button{
+	width: 70%;
+	margin-top: 20px;
+	padding: 10px;
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	background-color:darkred ;
+	
+
+}
+
+
+.button-container button:hover{
+	background-image: linear-gradient(to right,#61045f, #aa076b);
+}

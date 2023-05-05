@@ -1,0 +1,49 @@
+body{
+	margin-right: 200px;
+	margin-left: 100px;
+	width: 90%;
+	margin-top: 20px;
+
+}
+
+#first-box{
+	height: 8vh;
+	background-color: lightblue;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+#sec-box{
+	height: 30vh;
+	background-color: lightblue;
+    margin-bottom: 20px;
+    width: 80%;
+
+}
+
+.thrid-box >div{
+	background-color: lightblue;
+	height: 30vh;
+	width: 28%;
+	
+}
+
+.thrid-box{
+	display: flex;
+	width: 80%;
+	height: 35vh;
+	justify-content: space-between;
+    
+}
+
+
+#last{
+	height: 15vh;
+	background-color: lightblue;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+
+
+
